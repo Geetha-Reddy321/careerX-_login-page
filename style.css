@@ -1,0 +1,96 @@
+*{
+   margin:0;/*Removes default margin from all elements*/
+   padding:0;/*Removes default padding from all elements*/
+   box-sizing:border-box ;/*Ensures padding and border are included in the element's total width and height*/
+   font-family:'poppins', sans-serif; 
+}
+body{
+    display:flex;/*Centers elements within the body using Flexbox*/
+    align-items: center;/*Aligns items vertically in the center */
+    justify-content: center;/*Centers items horizontally*/
+    background-image:url(background.png);
+   /* background-repeat: no-repeat;
+    background-attachment: fixed;*/
+    
+    background-size: cover;/**/
+    min-height:100vh;/**/
+    
+}
+.wrapper{
+   background: rgb(150, 39, 150, 0.6);/**/
+   width:470px;/**/
+   height:400px;/**/
+   color:#ffff;/**/
+   border-radius: 45px;/**/
+   padding:40px;/**/
+}
+ .wrapper h1{
+    font-size:30px;/**/
+    justify-content: center;/**/
+    text-align:center;/**/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;/**/
+    margin-top:10px;/**/
+
+}
+.wrapper .input-box{
+    position:relative;/**/
+    width:100%;/**/
+    height: 50px;/**/
+    margin:30px 0;/**/
+}
+.input-box input{
+    width:100%;/**/
+    height:100%;/**/
+    background: transparent;/**/
+    border:none;/**/
+    outline: none;/**/
+    border:2px solid rgba(255, 255, 255, 0.2);/**/
+    border-radius: 40px;/**/
+    font-size: 15px;/**/
+    color:#ffff;/**/
+    padding:20px;/**/
+}
+ .input-box input::placeholder{
+    color:#ffff;/**/
+    
+
+ }
+ .input-box i{
+    position: absolute;/**/
+    right:20px;/**/
+    margin-top:20px;/**/
+ }
+ .wrapper .yes-no{
+    display:flex;/**/
+    justify-content: space-between;/**/
+
+ }
+ .wrapper button{
+    width:100%;/**/
+    height:7vh;/**/
+    border-radius: 30px;/**/
+    font-size: 15px;/**/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;/**/
+    border:none;/**/
+    outline: none;/**/
+    }
+ .wrapper p{
+    display:flex;/**/
+    margin-top:20px;/**/
+   padding-left: 80px;/**/
+ }
+  a{
+    color:white;/**/
+    text-decoration: none;/**/
+ }
+ .yes-no label input{
+   accent-color: #fff;/**/
+   /*by default in check box im getting blue tick so to remove that im using accent-color:my color;*/ 
+ }
+ .yes-no a:hover{
+   text-decoration: underline;/**/
+ }
+ .register a:hover{
+   text-decoration: underline;/**/
+ }
